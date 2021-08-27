@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shop_app/Screens/Complete_Profile/Components/body.dart';
 
 class CompleteProfileScreen extends StatelessWidget {
   const CompleteProfileScreen({ Key? key }) : super(key: key);
@@ -7,8 +8,11 @@ class CompleteProfileScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Sign Up"),
+      ),
+      body: Body(),
     );
   }
 }

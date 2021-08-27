@@ -6,6 +6,7 @@ import 'package:shop_app/Screens/Sign_Up/sign_up_screen.dart';
 import 'package:shop_app/Screens/Splash/splash_screen.dart';
 
 import 'Screens/Complete_Profile/complete_profile_screen.dart';
+import 'Screens/otp/otp_screen.dart';
 
 final Map<String, WidgetBuilder> routes = {
   SplashScreen.routeName: (context) => SplashScreen(),
@@ -14,4 +15,5 @@ final Map<String, WidgetBuilder> routes = {
   LoginSuccessScreen.routeName: (context) => LoginSuccessScreen(),
   SignUpScreen.routeName: (context) => SignUpScreen(),
   CompleteProfileScreen.routeName: (context) => CompleteProfileScreen(),
+  OTPScreen.routeName: (context) => OTPScreen(),
 };
